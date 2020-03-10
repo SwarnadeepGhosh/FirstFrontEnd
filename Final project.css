@@ -1,0 +1,100 @@
+body{
+  padding: 10px;
+
+}
+header{
+  background-color: #999999;
+  background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+  padding: 3px;
+}
+h1{
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+nav{
+  display: block;
+   margin: auto;
+  text-align: center;
+ padding: 5px;
+  overflow: auto;
+}
+nav>a{
+  display: inline-block;
+  width: 10%;
+    color: #000000;
+    background-color: rgba(191, 191, 191, 0.5);
+    font-weight: bold;
+  padding: 15px;
+  margin:10px 65px;
+    text-decoration: none;
+    text-align: center;
+border-radius: 5px;
+}
+nav>a:hover{
+  background-color: #ffff1a;
+}
+.active{
+  background-color: rgb(255,255,255);
+  color: rgb(7, 0, 106);
+}
+.left{
+  float: left;
+  background-image: linear-gradient(to bottom, rgb(50, 91, 0), rgb(114, 137, 0));
+  width: 25%;
+  pading: 10px;
+  overflow: auto;
+}
+img{
+  display: block;
+  border: 2px solid rgb(0,0,0);
+  width: 75%;
+  margin: 20px 30px;
+}
+.right{
+  width: 70%;
+  float: right;
+  padding: 10px;
+}
+/*table design*/
+.right table{
+  margin: auto;
+  border-collapse: collapse;
+  width : 70%;
+}
+.right table td{
+  text-align:center;
+  border: 3px solid #ffffff;
+  font-family: Arial;
+  padding: 15px 5px;
+  background-color: rgb(225, 245, 230);
+   background-image: linear-gradient(to bottom, rgb(240, 255, 249), rgb(225, 237, 232));
+  border-radius: 10px 10px 0 0;
+  opacity: 0.8;
+}
+/*table heading design*/
+.right table th{
+  text-align:center;
+  border: 3px solid #ffffff;
+  font-family: Arial;
+  padding: 15px 5px;
+  border-radius: 10px 10px 0 0;
+  color: rgb(255,255,255);
+  background-color: rgb(104, 145, 0);
+   background-image: linear-gradient(to bottom, rgb(41, 138, 0), rgb(28, 94, 0));
+  border-bottom: 4px solid rgb(168, 235, 0);
+}
+/*table row normal opacity*/
+.right table tr{
+  opacity: 0.8;
+}
+/*table row full opacity on mouse hover*/
+.right table tr:hover {
+  transition-duration: 0.2s;
+  opacity: 1;
+}
+/*first column left align*/
+.right table tr td:first-child, .right table tr th:first-child {
+  text-align: left;
+}
+
