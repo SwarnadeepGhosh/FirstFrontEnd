@@ -31,6 +31,13 @@ nav>a{
     text-align: center;
 border-radius: 5px;
 }
+nav>a:hover{
+  background-color: #ffff1a;
+}
+.active{
+  background-color: rgb(255,255,255);
+  color: rgb(7, 0, 106);
+}
 .left{
   float: left;
   background-image: linear-gradient(to bottom, rgb(50, 91, 0), rgb(114, 137, 0));
@@ -39,9 +46,9 @@ border-radius: 5px;
   overflow: auto;
 }
 img{
-  disply: block;
+  display: block;
   border: 2px solid rgb(0,0,0);
-  with: 75%;
+  width: 75%;
   margin: 20px 30px;
 }
 .right{
